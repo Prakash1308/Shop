@@ -1,0 +1,180 @@
+html{
+    scroll-behavior: smooth;
+}
+    
+    
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+header{
+    height: 100px;
+    margin: 0px;
+    padding: 1px;
+    background-size: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul{
+    text-align: center;
+    font-size: 18px;
+    margin-top: -30px;
+    padding-bottom: 20px ;
+    background-color: white;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: 50px;
+    color: #F2DB0A;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 4px 8px;
+    text-decoration: none;
+  }
+
+li:hover {
+    background-color: #F2DB0A;
+    color: white;
+  }
+
+.logo {
+    text-indent: -99999999px;
+    background-image:url("Logo.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 240px;
+    height: 100px;
+    margin-top: -110px;
+    margin-left: -43px;
+}
+.circle {
+    background-color: #F2DB0A;
+    width: 75px;
+    height: 110px;
+    margin-left: 30px;
+    margin-top: -130px;
+    border-style:solid;
+    border-color: #005490;
+    border-radius: 50%;
+  }
+
+.main{
+    margin-top: 55px;
+    height: 600px; 
+    background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.text{
+    background-color: #B8DFD8;
+    white-space: nowrap;
+    font-size: 50px; 
+    color: #000272; /*#B8DFD8*/
+    margin-top: -675px;
+    margin-right: 0px;
+    padding-left: 380px;
+    font-family: Andalus;
+}
+
+#Nani{
+    text-align: center;
+    font-size: 30px; 
+    padding: 2px 0px 0px 0px;
+}
+
+#Nani a {
+    display: block;
+    color: #000;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+
+#about{
+    background-color: #B8DFD8;
+    color: #000272;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+    height: 600px;
+    margin-top: 170px;
+    font-family: andalus, Sofia;
+}
+#white{
+    margin-top: 500px;
+}
+.nanapic{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -500px;
+    margin-left: 1000px;
+}
+
+.content{
+    margin-top: -330px;
+    padding-left: 20px;
+    font-family: Playfair Display;
+    font-size: 25px;
+}
+
+#contact{
+    font-size: 50px;
+    text-align: center;
+    height: 600px;
+    margin-top: 100px;
+}
+.photo{
+    background-color: rgb(208, 208, 253);
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    display:flex ;
+    flex-direction: row;
+}
+
+.photo figure{
+    margin: auto;
+    width: 200px;
+
+}
+
+.photo figure img{
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.fotter{
+    background-color: black;
+    color: white;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+
+
+@media screen and (max-width: 700px){
+.text{
+    font-size: 50px;
+}
+
+}
